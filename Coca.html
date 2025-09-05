@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coca-Cola</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+</head>
+<body>
+    <section>
+        <!-- l'arrière plan de la page colorée -->
+        <div class="circle"></div>
+        <!-- L'entete de la page-->
+        <header>
+            <a href="#" class="logo"><img src="img/logo.png"></a>
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">What about us</a></li>
+            </ul>
+        </header> 
+        <!-- le contenu de la page-->
+        <div class="content">
+            <!-- le texte et le bottom-->
+            <div class="textBox">
+                <h2>That's the good feelings</h2>
+                <p>Coca-Cola, parfois abrégé Coca ou Cola dans les pays francophones ou Coke en Amérique du Nord et 
+                    dans certains pays européens et africains, est une marque nord américaine de soda de type 
+                    cola fabriquée par The Coca-Cola Company. Cette marque a été déposée en 1886. 
+                    Ce nom provient de deux ingrédients utilisés pour sa composition originelle : 
+                    la feuille de coca et la noix de kola.
+                </p>
+                <a href="#">plus de détails sur notre entreprise</a>
+            </div>
+
+            <!-- l'animation de la photo-->
+            <div class="imgBox">
+                <swiper-container>
+                    <swiper-slide><img src="img/cocacola1.png"/></swiper-slide>
+                    <swiper-slide><img src="img/cocacola2.png"/></swiper-slide>
+                    <swiper-slide><img src="img/cocacola3.png"/></swiper-slide>
+                    <swiper-slide><img src="img/cocacola4.png"/></swiper-slide>
+                    <swiper-slide><img src="img/cocacola5.png"/></swiper-slide>
+                    <swiper-slide><img src="img/cocacola6.png"/></swiper-slide>
+                </swiper-container>
+            </div>
+        </div>
+
+
+
+
+        <ul class="sci">
+            <li><a href="#"><img src="img/facebook.png"></a></li>
+            <li><a href="#"><img src="img/instagram.png"></a></li>
+            <li><a href="#"><img src="img/twitter.png"></a></li>
+        </ul>
+    </section>
+
+    <!-- Partie de Js-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- <script>
+        var swiper = new Swiper('swiper-container',
+        {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerview: 'auto',
+            coverflowEffect:{
+                rotate:50,
+                stretch:0,
+                depht:100,
+                modifier:1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: 'swiper-pagination',
+            },
+        });
+    </script>-->
+</body>
+</html>
